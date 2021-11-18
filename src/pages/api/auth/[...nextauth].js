@@ -51,5 +51,6 @@ export default async function auth(req, res) {
         }
       })
     ],
+    secret: process.env.NODE_ENV === 'production' ? process.env.NEXTAUTH_SECRET : undefined
   })
 }
