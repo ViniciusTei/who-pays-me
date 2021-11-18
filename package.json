@@ -8,9 +8,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next-auth/mongodb-adapter": "^0.0.2-next.285",
+    "mongodb": "^4.2.0",
     "next": "12.0.4",
+    "next-auth": "^4.0.0-beta.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.19.5"
   },
   "devDependencies": {
     "eslint": "7",
